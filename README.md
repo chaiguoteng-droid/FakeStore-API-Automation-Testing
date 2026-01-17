@@ -34,4 +34,4 @@ This repository showcases a professional-grade API Automation Testing Framework 
    ```bash
    npm install -g newman
 2. Run Tests via CLI:
-   newman run "FakeStore_API_E2E_Automation.postman_collection.json" -e "FakeStore_Environment.json" --reporters cli
+   newman run "FakeStore_API_Collection.json" -e "FakeStore_Environment.json" --reporters cli
